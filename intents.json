@@ -1,0 +1,86 @@
+{"intents": [
+{"tag": "saludos",
+"patterns": ["hola", "hey", "buenas tardes", "buenos dias", "buen dia", "buenas noches", "que tal", "saludos"],
+"responses":["Hola! ¿Cómo puedo ayudarte?", "Buen día! ¿Cómo puedo ayudarte?", "Hola! Gracias por visitar Kurunjuatha. ¿Cómo puedo ayudarte?"]
+},
+{"tag": "sentidos",
+"patterns": ["como te sientes?", "como va todo?","como estas?", "como te va?", "estas bien?", "como te encuentras?"],
+"responses":["Hoy me encuentro de maravilla, ¿A ti cómo te va?", "Estoy muy bien, muchas gracias por preguntar, ¿Tú cómo estás?"]
+},
+{"tag" : "despedidas",
+"patterns" : ["adios", "hasta luego", "bye", "ya me voy", "al rato", "nos vemos"],
+"responses" : ["Que tengas un excelente dia.", "Te deseo un dia maravilloso.", "Vuelve pronto.", "Gracias por visitar Kurunjuatha."]
+},
+{"tag" : "edad",
+"patterns" : ["cuantos años tienes?", "cuanto tiempo llevan activos?", "desde cuando estan abiertos?", "cuando abrieron?"],
+"responses" : ["Llevamos 10 años haciendo felices a nuestros visitantes.", "Tenemos más de 10 años haciendo felices a nuestros visitantes :)", "Contamos con más de 10 años brindandole alegría a nuestros visitantes."]
+},
+{"tag" : "nombre",
+"patterns" : ["como te llamas?", "cual es tu nombre?", "como te puedo decir?", "tienes nombre?", "Como te gusta que te digan?", "quien eres?"],
+"responses" : ["Me llamo Juatha, soy tu asistente virtual.", "Mi nombre es Juatha, encantada de conocerte :)", "Me puedes llamar Juatha, tu asistente virtual."]
+},
+{"tag" : "real",
+"patterns" : ["quiero hablar con una persona real", "quiero hablar con un humano", "pasame a una persona", "quiero hablar con una persona", "pasame un humano", "necesito hablar con un humano", "eres real?", "eres una persona?", "eres una persona real?"],
+"responses" : ["Yo estoy capacitada para ayudarte, pero si quieres contactar a Atención a Clientes, te puedes comunicar al (351) 548-1280."]
+},
+{"tag" : "cabañas",
+"patterns" : ["cuantas cabañas tiene?","cuantas cabañas tienen disponibles?", "cuantas cabañas hay?", "cual es el numero de cabañas?", "cuantas cabañas?"],
+"responses" : ["Contamos con 6 cabañas con todos los servicios. Hay cabañas para 2, 5, o 10 personas.","Hay 6 cabañas con todos los servicios. Las cabañas son para 2, 5, o 10 personas."]
+},
+{"tag" : "servicios",
+"patterns" : ["tienen cocina?", "tienen refrigerador?","tienen microondas?", "tienen platos y vasos?", "tienen trastes?", "tienen para cocinar?", "cuales son los servicios?", "cuales son todos los servicios?"],
+"responses" : ["Tenemos todos los servicios necesarios. Refrigerador, Microondas, Trastes para cocinar, Agua Caliente, Asadores, y mucho más."]
+},
+{"tag" : "areas",
+"patterns" : ["que hay en las cabañas?", "que hay aparte de las cabañas?", "que hay en las cabañas?","hay areas de recreacion?", "cuentan con areas verdes?", "tienen areas de recreacion?", "hay jardin?", "tienen para hacer deportes?", "hay canchas de volley?", "hay cancha de basquet?", "hay ping pong?", "hay billar?", "hay cancha de futbol?"],
+"responses" : ["Contamos con una amplia variedad de areas de entretenimiento. Además de 3.5 km de bosque disponibles para caminar, contamos con mesas de billar y ping pong, canchas de básquet y voleibol, áreas verdes, columpios, hamacas, y hasta un Gotcha dónde el gas es gratis :)"]
+},
+{"tag" : "costos",
+"patterns" : ["cuanto cuesta reservar?", "cuanto cuesta por cabaña?", "cual es el precio?", "cuanto cuesta?", "cual es el costo?", "cuanto cuesta la noche?", "cuanto cuesta por 2 noches?","cuanto cuesta por  3 noches?"],
+"responses" : ["Las cabañas tienen un costo de $350.00 MXN por persona y $250.00 MXN por persona extra. Además contamos con espacio para camping, y renta de sonido"]
+},
+{"tag" : "reglas",
+"patterns" : ["tienen reglas?", "cuales son sus reglas?", "que reglas tienen?", "tienen restricciones?", "a que hora es el check out?", "a que hora es el registro?", "a que hora puedo llegar?", "a que hora puedo salir?", "puedo llevar mascotas?", "puedo llevar a mi perro?"],
+"responses" : ["No tenemos muchas reglas. Sólo le pedimos a nuestros visitantes que lleguen después de la 1:00 PM, y el dia de salida, salgan antes de las 12:00 PM. Les agradecemos no traer mascotas :)"]
+},
+{"tag" : "sonido",
+"patterns" : ["cuentan con sonido?", "rentan sonido?", "cuanto cuesta el sonido?", "hay sonido?"],
+"responses" : ["Tenemos un sonido de excelente calidad que rentamos en $500.00 MXN"]
+},
+{"tag" : "camping",
+"patterns" : ["puedo hacer camping?", "hay espacio para camping?", "puedo acampar?", "hay espacio para acampar?", "puedo llevar mi casa de campaña?"],
+"responses" : ["El camping tiene un costo de $250, incluyendo baños y regaderas"]
+},
+{"tag" : "cancelacion",
+"patterns" : ["hacen cancelacion?", "puedo cancelar?", "se puede cancelar la reserva?"],
+"responses" : ["Es posible hacer cancelaciones, en su caso, no se regresa el deposito."]
+},
+{"tag" : "reserva",
+"patterns" : ["reservación","quiero hacer una reservación", "quiero hacer una reserva", "reserva", "reservación", "quiero apartar unas cabañas", "quiero reservar una cabaña", "quiero reservar 2 cabañas"],
+"responses" : ["Con mucho gusto te ayudo a reservar. ¿Cuantas noches necesita?", "Con gusto, ¿Cuántas noches desea reservar?"]
+},
+{"tag" : "personas",
+"patterns" : ["se pueden meter mas personas a la misma cabaña?","se pueden meter personas extra a la habitacion","somos 3 personas", "somos 4 personas", "somos 5 personas","somos 6 personas", "somos 7 personas", "somos 8 personas", "somos 9 personas", "somos 11 personas", "somos 12 personas", "somos mas de 10 personas"],
+"responses" : ["Sí es posible ingresar más personas a la cabaña. Las cabañas tienen capacidad de 2, 5, y 10 personas. El costo es de $350.00 MXN por persona y $250.00 MXN por persona extra", "Sí pueden entrar más personas a la cabaña, pero cada persona extra del cupo, tiene un costo de $250.00 MXN"]
+},
+{"tag" : "1noche",
+"patterns" : ["una noche", "1 noche", "un dia", "quiero reservar 1 noche", "necesito reservar una noche", "cuanto cuesta reservar una noche?", "cuanto cuesta la noche?", "cuanto por noche?", "una reservacion de una noche"],
+"responses" : ["Excelente, una noche tiene el costo de $350.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+},
+{"tag" : "2noches",
+"patterns" : ["dos noches", "2 noches", "dos dias", "quiero reservar 2 noches", "necesito reservar dos noches", "cuanto cuesta reservar dos noches?", "cuanto cuestan dos noches?", "cuanto por dos noches?", "una reservacion de dos noches"],
+"responses" : ["Excelente, el costo por dos noches es de $700.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+},
+{"tag" : "3noches",
+"patterns" : ["tres noches", "3 noches", "tres dias", "quiero reservar 3 noches", "necesito reservar tres noches", "cuanto cuesta reservar tres noches?", "cuanto cuestan tres noches?", "cuanto por tres noches?", "una reservacion de tres noches"],
+"responses" : ["Excelente, el costo por tres noches es de $950.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+},
+{"tag" : "4noches",
+"patterns" : ["cuatro noches", "4 noches", "cuatro dias", "quiero reservar 4 noches", "necesito reservar cuatro noches", "cuanto cuesta reservar cuatro noches?", "cuanto cuestan cuatro noches?", "cuanto por cuatro noches?", "una reservacion de cuatro noches"],
+"responses" : ["Excelente, el costo por cuatro noches es de $1,300.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+},
+{"tag" : "5noches",
+"patterns" : ["cinco noches", "5 noches", "cinco dias", "quiero reservar 5 noches", "necesito reservar cinco noches", "cuanto cuesta reservar cinco noches?", "cuanto cuestan cinco noches?", "cuanto por cinco noches?", "una reservacion de cinco noches"],
+"responses" : ["Excelente, el costo por cuatro noches es de $1,650.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+}
+]}
