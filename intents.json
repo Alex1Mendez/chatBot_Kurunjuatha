@@ -1,6 +1,6 @@
 {"intents": [
 {"tag": "saludos",
-"patterns": ["hola", "hey", "buenas tardes", "buenos dias", "buen dia", "buenas noches", "que tal", "saludos"],
+"patterns": ["hola","hola juatha", "hey", "buenas tardes", "buenos dias", "buen dia", "buenas noches", "que tal", "saludos"],
 "responses":["Hola! ¿Cómo puedo ayudarte?", "Buen día! ¿Cómo puedo ayudarte?", "Hola! Gracias por visitar Kurunjuatha. ¿Cómo puedo ayudarte?"]
 },
 {"tag": "sentidos",
@@ -24,15 +24,15 @@
 "responses" : ["Yo estoy capacitada para ayudarte, pero si quieres contactar a Atención a Clientes, te puedes comunicar al (351) 548-1280."]
 },
 {"tag" : "cabañas",
-"patterns" : ["cuantas cabañas tiene?","cuantas cabañas tienen disponibles?", "cuantas cabañas hay?", "cual es el numero de cabañas?", "cuantas cabañas?"],
-"responses" : ["Contamos con 6 cabañas con todos los servicios. Hay cabañas para 2, 5, o 10 personas.","Hay 6 cabañas con todos los servicios. Las cabañas son para 2, 5, o 10 personas."]
+"patterns" : ["cuantas cabañas tiene?","cuantas cabañas tienen disponibles?", "cuantas cabañas hay?", "cual es el numero de cabañas?", "cuantas cabañas?", "quiero informacion", "estoy buscando información"],
+"responses" : ["Contamos con 6 cabañas con todos los servicios. Hay cabañas para 2, 5, o 10 personas. Además contamos con areas verdes, de recreación, deportes, sonido, y camping.","Hay 6 cabañas con todos los servicios. Las cabañas son para 2, 5, o 10 personas.Además contamos con areas verdes, de recreación, deportes, sonido, y camping."]
 },
 {"tag" : "servicios",
-"patterns" : ["tienen cocina?", "tienen refrigerador?","tienen microondas?", "tienen platos y vasos?", "tienen trastes?", "tienen para cocinar?", "cuales son los servicios?", "cuales son todos los servicios?"],
-"responses" : ["Tenemos todos los servicios necesarios. Refrigerador, Microondas, Trastes para cocinar, Agua Caliente, Asadores, y mucho más."]
+"patterns" : ["tienen servicio de cocina?","tienen cocina?", "tienen restaurante?","tienen comida?","tienen refrigerador?","tienen microondas?", "tienen platos y vasos?", "tienen trastes?", "tienen para cocinar?", "cuales son los servicios?", "tienen vasos","tienen toallas?","cuales son todos los servicios?"],
+"responses" : ["Tenemos todos los servicios necesarios. Refrigerador, Microondas, Trastes para cocinar, Agua Caliente, Asadores, Toallas en habitaciones, y mucho más."]
 },
 {"tag" : "areas",
-"patterns" : ["que hay en las cabañas?", "que hay aparte de las cabañas?", "que hay en las cabañas?","hay areas de recreacion?", "cuentan con areas verdes?", "tienen areas de recreacion?", "hay jardin?", "tienen para hacer deportes?", "hay canchas de volley?", "hay cancha de basquet?", "hay ping pong?", "hay billar?", "hay cancha de futbol?"],
+"patterns" : ["que hay en las cabañas?", "que hay aparte de las cabañas?", "que hay en las cabañas?","hay areas de recreacion?", "que entretenimientos ofrecen", "cuentan con areas verdes?", "tienen areas de recreacion?", "hay jardin?", "tienen para hacer deportes?","tienen canchas?","hay canchas?", "hay canchas de volley?", "hay cancha de basquet?","hay spa?", "hay ping pong?", "hay billar?", "hay cancha de futbol?", "hay albeca?", "tienen alberca?", "tienen spa?"],
 "responses" : ["Contamos con una amplia variedad de areas de entretenimiento. Además de 3.5 km de bosque disponibles para caminar, contamos con mesas de billar y ping pong, canchas de básquet y voleibol, áreas verdes, columpios, hamacas, y hasta un Gotcha dónde el gas es gratis :)"]
 },
 {"tag" : "costos",
@@ -82,5 +82,9 @@
 {"tag" : "5noches",
 "patterns" : ["cinco noches", "5 noches", "cinco dias", "quiero reservar 5 noches", "necesito reservar cinco noches", "cuanto cuesta reservar cinco noches?", "cuanto cuestan cinco noches?", "cuanto por cinco noches?", "una reservacion de cinco noches"],
 "responses" : ["Excelente, el costo por cuatro noches es de $1,650.00 MXN por persona. Contamos con cabañas de 2, 5, y 10 personas."]
+},
+{"tag" : "groserias",
+"patterns" : ["pendeja", "puta", "perra", "cabrona", "chinga tu madre", "estupida", "babosa", "inepta", "hija de tu puta madre", "verga", "coño", "pito", "tu puta madre"],
+"responses" : ["Lamento haber causado frustración, ¿Hay algo que pueda hacer para ayudarte?"]
 }
 ]}
